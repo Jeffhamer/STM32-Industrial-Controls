@@ -14,3 +14,7 @@ A bench-scale traffic signal controller for the STM32 NUCLEO-G474RE. The C firmw
 4. Connect the board's ST-LINK USB port and start a debug session to program and run the firmware.
 
 The control logic is in `Core/Src/main.c`. The original CubeMX configuration is `G474_Blink.ioc`.
+
+## Related project
+
+[STM32 DC Motor Control](https://github.com/Jeffhamer/STM32-DC-Motor-Control) uses encoder feedback and PI control to regulate a brushed DC gearmotor.
